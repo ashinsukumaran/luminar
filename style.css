@@ -1,0 +1,112 @@
+body{
+    font-size: 12px;
+    font-family: 'Muli' !important;
+    color: #2d3e50;
+}
+p{
+    font-size: 12px;
+
+}
+a{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none!important;
+    color: #2d3e50!important;
+    font-size: 14px;
+
+}
+
+li{
+    list-style: none;
+}
+.container{
+    display: flex;
+
+}
+          
+ul{
+    margin-left: 25%;
+
+    display: flex;
+
+}
+
+li{
+    padding:10px;
+
+}
+.nav{
+    padding:15px;
+    justify-content: center;
+}
+.topbar{
+padding-top: 5px;    color: aliceblue;
+    /* justify-content: center; */
+    background-color: #5e068a;
+    height:40px;
+padding-left: 5%;
+padding-right: 5%;
+display: flex;
+
+}
+.topbar a{
+    color: aliceblue!important;
+    font-weight: 400;
+
+}
+
+.about-area{
+    margin-top:50px;
+}
+.about-area{margin-bottom: 10px;}
+
+
+.about-area p {
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+   
+    }
+    .btn1{
+        padding: 16px 27px;
+        border-radius: 50px;
+        background: #5e068a none repeat scroll 0 0;
+        color: #ffffff;
+       
+    
+    }
+.carousel-inner{
+    position: relative;
+}
+
+.course h3{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;
+}
+.course{
+    border: 1px solid #ffffff;
+    /* padding: 10px; */
+    box-shadow: 5px 5px 5px #ffffff;
+    height: 350px;
+    margin-bottom: 65px;
+
+}
+.stroked-btn{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    color: #5e068a;
+}
+@media only screen and (max-width: 600px) {
+    .topbar {
+        height:80px;
+      
+    }
+  }
+  
